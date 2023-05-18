@@ -1,0 +1,82 @@
+/* *{
+    border: 2px solid red;
+} */
+/* HEADER */
+body {
+  margin: 0;
+}
+.header {
+  background-color: #41b3a3;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 100px;
+  gap: 16px;
+  padding: 16px;
+}
+.header .title {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* CHORDS */
+.chords {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("assets/images/UkuleleBg.jpg");
+}
+
+.chord {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #e27d60;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+  font-size: 18px;
+  height: 100px;
+  padding: 8px;
+}
+.uke-logo {
+  transition: transform 0.3s ease-in-out;
+  max-height: 50%;
+}
+.uke-logo img {
+  width: 50px;
+}
+.uke-logo:hover {
+  transform: rotate(360deg) scale(1.2);
+}

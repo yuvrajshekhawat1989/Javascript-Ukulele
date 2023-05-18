@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ukulele Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ukulele.js" defer></script>
+</head>
+
+<body>
+    <div class="header">
+        <p class="title">Play Ukulele</p>
+        <img src="assets/images/Ukulele-Icon.svg">
+    </div>
+    <div class="chords">
+        <div data-key="67" class="chord">
+            <kbd>C</kbd>
+            <span class="sound">C-Chord</span>
+        </div>
+        <div data-key="68" class="chord">
+            <kbd>D</kbd>
+            <span class="sound">D-Chord</span>
+        </div>
+        <div data-key="69" class="chord">
+            <kbd>Em</kbd>
+            <span class="sound">E-minor Chord</span>
+        </div>
+        <div data-key="71" class="chord">
+            <kbd>G</kbd>
+            <span class="sound">G-Chord</span>
+        </div>
+    </div>
+    <audio data-key="67" src="assets/chords/C-Chord.mp3"></audio>
+    <audio data-key="68" src="assets/chords/D-Chord.mp3"></audio>
+    <audio data-key="69" src="assets/chords/Em-Chord.mp3"></audio>
+    <audio data-key="71" src="assets/chords/G-Chord.mp3"></audio>
+    <div class="footer">
+        <div class="credits">Chords By Lulu ©</div>
+        <div class="uke-logo"><img src="assets/images/Ukulele-Icon.png"></div>
+    </div>
+</body>
+
+</html>
